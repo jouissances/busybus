@@ -1,0 +1,139 @@
+/* 1. Global Style */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Archivo';
+    font-size: 16px;
+    letter-spacing: 0.88px;
+    text-align: center;
+}
+
+body {
+    border: 1px solid #808080;
+    width: 414px;
+    margin: auto;
+}
+
+/* 2. Full-width Images Style */
+.status-bar img,
+.map img {
+    width: 100%;
+}
+
+/* 2. Banner Style */
+.banner {
+    background: #ff0000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner > img {
+    height: 12px;
+}
+
+.banner img:last-child {
+    height: 10px;
+}
+
+.announcement {
+    display: flex;
+    margin-left: -5px;
+}
+
+.announcement > img {
+    height: 20px;
+}
+
+.announcement span {
+    font-size: 0.7em;
+    color: #ffffff;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-left: 7px;
+}
+
+/* 4. Bus Stop Header Style */
+.bus-stop {
+    background: #005EAF;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bus-stop-name {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.bus-stop-name h1,
+.bus-stop-name h2 {
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.bus-stop-name h1 {
+    font-weight: 500;
+}
+
+.bus-stop-name h2 {
+    font-weight: 200;
+    font-size: 0.7em;
+}
+
+/* Bus Schedule Style */
+.bus-schedule {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ededed;
+}
+
+.bus-detail h3 {
+    font-size: 1.3em;
+    float: left;
+    width: 50px;
+    margin-top: 7px;
+}
+
+.bus-detail span {
+    font-size: 0.8em;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
+.bus-detail .caption {
+    text-align: left;
+    font-size: 0.7em;
+    color: #999999;
+}
+
+.arrival-time h4 {
+    width: 75px;
+    text-align: right;
+}
+
+.oos {
+    background: #f1f1f1;
+}
+
+.oos * {
+    opacity: 0.65;
+}
+
+.oos .caption {
+    color: #333333;
+}
+
+.oos img {
+    opacity: 1;
+}
