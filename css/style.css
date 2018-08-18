@@ -72,7 +72,7 @@ body {
 .bus-stop-name h2 {
     letter-spacing: 1.5px;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 
 .bus-stop-name h1 {
@@ -100,12 +100,16 @@ body {
 .bus-detail h3 {
     font-size: 1.3em;
     float: left;
+    text-align: left;
     width: 50px;
     margin-top: 7px;
+    margin-left: 3px;
 }
 
 .bus-detail span {
     font-size: 0.8em;
+    position: relative;
+    left: 5px;
     display: inline-block;
     text-align: left;
     width: 80%;
